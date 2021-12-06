@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2018 (64 Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="11.4923mm" height="5.8928mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 517.43 265.32"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="949" font-variant="normal" class="str0" style="fill-rule:nonzero" font-style="normal" font-weight="400">
+	<font-face 
+		font-family="Quantum">
+		<font-face-src>
+			<font-face-name name="QuantumRegular"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="2" horiz-adv-x="650" d="M157.995 388.664l154.003 0 -4.99604 8.00784 -1.00393 1.99606c-10.0039,13.996 -14.9999,31.1692 -14.9999,48.1652 0,22.996 8.99996,44.1612 23.9999,59.173 14.9999,15.9921 37.0038,25.996 61.0037,25.996 46.9959,0 84.9918,-38.0077 84.9918,-85.169 0,-19.996 -6.9921,-39.1652 -19.996,-54.1651l-7.00391 -7.00391 99.0114 -99.3303c3.99211,4.00392 6.9921,7.99603 9.99209,12 35.9999,41.1613 56.0077,94.3343 56.0077,149.503 0,26.9999 -5.00785,54.1651 -14.9999,79.169 -16.0039,41.9998 -44.0077,77.9997 -80.9997,103.996 -38.0077,26.9999 -83.0075,40.9959 -130.003,40.9959 -62.9998,0 -120,-25.996 -161.007,-66.9919 -19.996,-20.0078 -35.9999,-44.0077 -46.9959,-70.0037 -12,-26.9999 -17.9999,-57.1651 -17.9999,-88.1689 0,-17.9999 1.99606,-36.1652 5.99998,-53.1612l4.99604 -5.00785zm226.003 -248.668l88.0036 88.1689 -98.9996 99.3303 -326.999 -327.495 532.994 0 0 139.996 -194.999 0z"/>
+   <glyph unicode="T" horiz-adv-x="787" d="M307.995 0l170.007 0 0 185.999 -170.007 169.995 0 -355.995zm-257.999 686.997l0 -169.995 257.999 0 0 -83.0075 170.007 -169.995 0 253.003 259.003 0 0 169.995 -687.009 0z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Quantum";font-variant:normal;font-style:normal;font-weight:normal;src:url("#FontID0") format(svg)}
+    .str0 {stroke-width:9;stroke-miterlimit:22.9256}
+    .str1 {stroke:#373435;stroke-width:3.43;stroke-miterlimit:22.9256}
+    .fil0 {fill:#FEFEFE}
+    .fnt0 {font-weight:normal;font-size:381.21px;font-family:'Quantum'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Capa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <text x="-13.4" y="263.6"  class="fil0 str1 fnt0">2T</text>
+ </g>
+</svg>

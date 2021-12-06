@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background: #dce0e5;
+	font-family: Tahoma;
+	font-size: 20px;
+	color: black;
+}
+h1{
+	font-family:Quantum;
+	font-size: 80px;
+	color: black;
+	
+}
+
+.last{
+	width: 95%;
+    font-family: Square721 Cn BT;
+    font-size: 15px;
+    color: black;
+}
+
+.title{
+  background-color: yellow;
+  font-family: Bahnschrift;
+  font-size: 40px;
+  width: 1340px;
+  height: 330px;
+} 
+
+.definition{
+	width: 95%;
+    font-family: Square721 Cn BT;
+    font-size: 18px;
+    color: black;
+} 
+
+.icons{
+	width: 10px;
+	height: 8px;
+}
+
+/*CSS Menú*/
+.navegacion ul{
+	list-style: none;
+}
+
+.menu{
+	width: 100%;
+	background: #000;
+	font-family: Okta Neue Black;
+	font-size: 25px;
+	color: orange;
+	list-style:none;
+	margin: 0;
+	padding: 0;	
+	border: solid 4px yellow;
+	margin-top: 0;
+}
+
+.menu > li {
+	display: inline-block;
+}
+.menu li a{
+	padding: 10px 20px;
+	display: inline-block;
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	background: #ccc;
+	color: yellow;
+	transition: all .5s;
+
+}
+
+/*submenu*/
+.submenu{
+	position: absolute;
+	background: grey;
+	width: 14%;
+	padding: 0 0 0 20px;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+.submenu li a {
+	font-size: 25px;
+	display: block;
+	padding: 3px;
+	color: #fff;
+	font-family: Okta Neue Black;
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+
+
+

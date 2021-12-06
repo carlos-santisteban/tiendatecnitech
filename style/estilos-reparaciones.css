@@ -1,0 +1,709 @@
+/*title*/
+h1{
+	font-family:Quantum;
+	font-size: 80px;
+	color: black;
+	
+}
+body{
+	background: #dce0e5;
+}
+
+.concepto{
+	font-family: Arial;
+	margin: 30px;
+	background: lightblue;
+	padding: 1px;
+	border-radius: 20px;
+
+}
+
+/*CSS Menú*/
+.navegacion ul{
+	list-style: none;
+}
+
+.menu{
+	width: 100%;
+	background: #000;
+	font-family: Okta Neue Black;
+	font-size: 25px;
+	color: orange;
+	list-style:none;
+	margin: 0;
+	padding: 0;	
+	border: solid 4px yellow;
+	margin-top: 0;
+}
+
+.menu > li {
+	display: inline-block;
+}
+.menu li a{
+	padding: 10px 20px;
+	display: inline-block;
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	background: #ccc;
+	color: yellow;
+	transition: all .5s;
+
+}
+
+/*submenu*/
+.submenu{
+	position: absolute;
+	background: grey;
+	width: 14%;
+	padding: 0 0 0 20px;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+.submenu li a {
+	font-size: 25px;
+	display: block;
+	padding: 3px;
+	color: #fff;
+	font-family: Okta Neue Black;
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+
+
+/*body*/
+/*filtros-celulares*/
+.filtros{
+	width: 400px;
+	height: 1350px;
+	background:  #256d7b;
+	position: absolute;
+	display: inline-block;
+	margin: 0px 5px 0px 15px;
+}
+
+.filtros h2{
+	font-family: Square721 Cn BT;
+}
+/*muestras de hardware y software*/
+/*muestra01*/
+.celulares0{
+	position: relative;
+	width: 300px;
+	height: 410px;
+	background: lightblue;
+	display: block;
+	margin-right: 20px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	margin-top: -10px;
+	border-radius: 4px;
+
+}
+
+.celulares0 img{
+	position: static;
+	width: 300px;
+	height: 380px;
+	padding: 15px;
+	margin-top: -20px;
+}
+
+.celulares0 .definition_cel{
+	position: absolute;
+	width: 310px;
+	height: 130px;
+	background: lightblue;
+	padding: 15px;
+	font-family: Arial;
+	display: inline-block;
+	border-radius: 4px;
+}
+
+
+/*muestra02*/
+.celulares1{
+	position: absolute;
+	width: 300px;
+	height: 410px;
+	background: lightblue;
+	display: block;
+	margin-right: 20px;
+	margin-bottom: 5px;
+	margin-left: 15px;
+	margin-top: 700px;
+	border-radius: 4px;
+}
+
+
+.celulares1 img{
+	position: static;
+	width: 300px;
+	height: 380px;
+	padding: 15px;
+}
+
+.celulares1 .definition_cel{
+	position: absolute;
+	width: 310px;
+	height: 130px;
+	background: lightblue;
+	padding: 15px;
+	margin-top: 15px;
+	font-family: Arial;
+	display: inline-block;
+	border-radius: 4px;
+}
+
+
+
+/*lista general de laptops*/
+.listas{
+	position: relative;
+	display: inline-block;
+	margin-left: 420px;
+	padding: 0;
+}
+
+
+/*cuadro0*/
+.computadoras0{
+	position: static;
+	width: 895px;
+	height: 220px;
+	background:lightblue;
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	margin-top: 0px;
+	box-shadow: 7px 13px 37px #256d7b;
+}
+
+.computadoras0 img{
+	position: static;
+	width: 215px;
+	height: 200px;
+	padding: 15px;
+}
+
+.computadoras0 .definition_product{
+	background: white;
+	width: 552px;
+	padding: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	height: 180px;
+	position: absolute;
+	font-family: Arial;
+	display: inline-block;
+	border-radius: 4px;
+}
+
+.computadoras0 strong{
+	font-family: Square721 Cn BT;
+}
+.computadoras0 a{
+	font-family: Square721 Cn BT;
+	color: #256d7b;
+	text-decoration: none;
+}
+.computadoras0 .zoom {
+ 	transition: transform .5s;
+}
+
+.computadoras0 .zoom:hover{
+ 	transform: scale(1.5);
+}
+
+
+
+
+
+
+
+/*cuadro1*/
+.computadoras1{
+	position: static;
+	width: 895px;
+	height: 220px;
+	background:lightblue;
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	margin-top: 0px;
+	box-shadow: 7px 13px 37px #256d7b;
+}
+
+.computadoras1 img{
+	position: static;
+	width: 215px;
+	height: 200px;
+	padding: 15px;
+}
+
+.computadoras1 .definition_product{
+	background: white;
+	width: 552px;
+	padding: 10px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	height: 180px;
+	position: absolute;
+	font-family: Arial;
+	display: inline-block;
+	border-radius: 4px;
+}
+.computadoras1 strong{
+	font-family: Square721 Cn BT;
+}
+.computadoras1 a{
+	font-family: Square721 Cn BT;
+	color: #256d7b;
+	text-decoration: none;
+}
+.computadoras1 .zoom {
+ 	transition: transform .5s;
+}
+
+.computadoras1 .zoom:hover{
+ 	transform: scale(1.5);
+}
+
+
+
+
+
+/*cuadro2*/
+.computadoras2{
+	position: static;
+	width: 895px;
+	height: 220px;
+	background:lightblue;
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	margin-top: 0px;
+	box-shadow: 7px 13px 37px #256d7b;
+}
+
+.computadoras2 img{
+	position: static;
+	width: 215px;
+	height: 200px;
+	padding: 15px;
+}
+
+.computadoras2 .definition_product{
+	background: white;
+	width: 552px;
+	padding: 10px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	height: 180px;
+	position: absolute;
+	font-family: Arial;
+	display: inline-block;
+	border-radius: 4px;
+}
+.computadoras2 strong{
+	font-family: Square721 Cn BT;
+}
+.computadoras2 a{
+	font-family: Square721 Cn BT;
+	color: #256d7b;
+	text-decoration: none;
+}
+.computadoras2 .zoom {
+ 	transition: transform .5s;
+}
+
+.computadoras2 .zoom:hover{
+ 	transform: scale(1.5);
+}
+
+
+
+
+
+/*cuadro3*/
+.computadoras3{
+	position: static;
+	width: 895px;
+	height: 220px;
+	background:lightblue;
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	margin-top: 0px;
+	box-shadow: 7px 13px 37px #256d7b;
+}
+
+.computadoras3 img{
+	position: static;
+	width: 215px;
+	height: 200px;
+	padding: 15px;
+}
+
+.computadoras3 .definition_product{
+	background: white;
+	width: 552px;
+	padding: 10px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	height: 180px;
+	position: absolute;
+	font-family: Arial;
+	display: inline-block;
+	border-radius: 4px;
+}
+
+.computadoras3 strong{
+	font-family: Square721 Cn BT;
+}
+.computadoras3 a{
+	font-family: Square721 Cn BT;
+	color: #256d7b;
+	text-decoration: none;
+}
+.computadoras3 .zoom {
+ 	transition: transform .5s;
+}
+
+.computadoras3 .zoom:hover{
+ 	transform: scale(1.5);
+}
+
+
+
+
+
+/*cuadro4*/
+.computadoras4{
+	position: static;
+	width: 895px;
+	height: 220px;
+	background:lightblue;
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	margin-top: 0px;
+	box-shadow: 7px 13px 37px #256d7b;
+}
+
+.computadoras4 img{
+	position: static;
+	width: 215px;
+	height: 200px;
+	padding: 15px;
+}
+
+.computadoras4 .definition_product{
+	background: white;
+	width: 552px;
+	padding: 10px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	height: 180px;
+	position: absolute;
+	font-family: Arial;
+	display: inline-block;
+	border-radius: 4px;
+}
+.computadoras4 strong{
+	font-family: Square721 Cn BT;
+}
+.computadoras4 a{
+	font-family: Square721 Cn BT;
+	color: #256d7b;
+	text-decoration: none;
+}
+.computadoras4 .zoom {
+ 	transition: transform .5s;
+}
+
+.computadoras4 .zoom:hover{
+ 	transform: scale(1.5);
+}
+
+
+
+/*cuadro5*/
+.computadoras5{
+	position: static;
+	width: 895px;
+	height: 220px;
+	background:lightblue;
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	margin-top: 0px;
+	box-shadow: 7px 13px 37px #256d7b;
+}
+
+.computadoras5 img{
+	position: static;
+	width: 215px;
+	height: 200px;
+	padding: 15px;
+}
+
+.computadoras5 .definition_product{
+	background: white;
+	width: 552px;
+	padding: 10px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	height: 180px;
+	position: absolute;
+	font-family: Arial;
+	display: inline-block;
+	border-radius: 4px;
+}
+.computadoras5 strong{
+	font-family: Square721 Cn BT;
+}
+.computadoras5 a{
+	font-family: Square721 Cn BT;
+	color: #256d7b;
+	text-decoration: none;
+}
+.computadoras5 .zoom {
+ 	transition: transform .5s;
+}
+
+.computadoras5 .zoom:hover{
+ 	transform: scale(1.5);
+}
+
+
+
+
+/*cuadro6*/
+.computadoras6{
+	position: static;
+	width: 895px;
+	height: 220px;
+	background:lightblue;
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	margin-top: 0px;
+	box-shadow: 7px 13px 37px #256d7b;
+}
+
+.computadoras6 img{
+	position: static;
+	width: 215px;
+	height: 200px;
+	padding: 15px;
+}
+
+.computadoras6 .definition_product{
+	background: white;
+	width: 552px;
+	padding: 10px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	height: 180px;
+	position: absolute;
+	font-family: Arial;
+	display: inline-block;
+	border-radius: 4px;
+}
+.computadoras6 strong{
+	font-family: Square721 Cn BT;
+}
+.computadoras6 a{
+	font-family: Square721 Cn BT;
+	color: #256d7b;
+	text-decoration: none;
+}
+.computadoras6 .zoom {
+ 	transition: transform .5s;
+}
+
+.computadoras6 .zoom:hover{
+ 	transform: scale(1.5);
+}
+
+
+
+/*final1*/
+.final1{
+	margin: 0;
+	border-top: 13px solid;
+	border-color: lightblue;
+	position: relative;
+	background: #3b455a;
+	width: 100%;
+	height: 370px;
+	margin: 0;
+}
+.final1 li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+	font-family: Square721 Cn BT;
+}
+
+.final1 li a:hover{
+	text-decoration: underline;
+}
+
+/*Empresa*/
+.final1 .list-final1{
+	position: relative;
+	font-family: Geometr212 BkCn BT;
+	font-size: 25px;
+	display: inline-block;
+	padding: 0;
+	margin-left: 50px;
+	list-style: none;
+	text-decoration: none;
+	color: #fff;
+}
+/*Servicios*/
+.final1 .list-final2{
+	position: absolute;
+	font-family: Geometr212 BkCn BT;
+	font-size: 25px;
+	display: inline-block;
+	padding: 0;	
+	margin-top: 25px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 50px;
+	list-style: none;
+	text-decoration: none;
+	color: #fff;
+}
+/*Recomendaciones*/
+.final1 .list-final3{
+	position: absolute;
+	font-family: Geometr212 BkCn BT;
+	font-size: 25px;
+	display: inline-block;
+	padding: 0;	
+	margin-top: 25px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 300px;
+	list-style: none;
+	text-decoration: none;
+	color: lightblue;
+}
+
+/*Contacto*/
+.final1 .list-final4{
+	position: absolute;
+	font-family: Geometr212 BkCn BT;
+	font-size: 10px;
+	display: inline-block;
+	padding: 15px;
+	height: 200px;
+	width: 420px;
+	margin-top: 113px;
+	margin-right: 10px;
+	margin-bottom: 0;
+	margin-left: 625px;
+	list-style: none;
+	text-decoration: none;
+	color: #fff;
+	background: lightblue;
+	border-radius: 7px;
+	box-shadow: 7px 13px 37px #000;
+}
+/*subtitulo*/
+.final1 .list-final4 h4{
+	font-family: Square721 Cn BT;
+	font-size: 15px;
+	color: black;
+}
+/*espacio para escribir*/
+.final1 .list-final4 .controls{
+	width: 290px;
+	border-radius: 4px;
+	border: 2px solid black;
+	font-family: Square721 Cn BT;
+	padding: 5px;
+	font-size: 15px;
+	background: white;
+	color: black;
+}
+/*boton*/
+.final1 .list-final4 .bottom{
+	width: 105px;
+	border: 2px solid yellow;
+	padding: 7px;
+	font-family: Square721 Cn BT;
+	font-size: 15px;
+	background: #050608;
+	color: white;
+}
+/*iconos de redes sociales*/
+.final1 .list-final4 .rs{
+	margin-left: 75px;
+	width: 400px;
+	padding: 7px;
+}
+
+
+/*final2*/
+.final12{
+	position: absolute;
+	background: #050608;
+	width: 1333px;
+	color: white;
+	padding-top: 0;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 10px;
+	font-family: Square721 Cn BT;
+	display: inline block;
+}
+
+.final12 p{
+	padding-bottom: 0;
+	padding-right: 0;
+	padding-left: 30px;
+	padding-top: 5px;
+	font-size: 13px;
+	display: inline block;
+}
+
+.final12 img{
+	position: static;
+	margin: -120px 20px 20px 1170px;
+	width: 100px;
+	height: 90px;
+}
+
+.final12 .marca{
+	position: absolute;
+	margin: -120px 40px 10px 910px;	
+
+}
+
+.final12 .marca p{
+	font-family: Square721 Cn BT;
+	font-size: 16px;
+	padding-top: 12px;
+}
+

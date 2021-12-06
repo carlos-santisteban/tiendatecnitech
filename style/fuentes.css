@@ -1,0 +1,25 @@
+@font-face{
+	font-family: Okta Neue Black Italic;
+	src: url(fuentes/OktaNeue-BlackItalic.eot);
+}
+
+@font-face{
+	font-family: Quantum;
+	src: url(fuentes/Quantum.eot);
+}
+
+@font-face{
+	font-family: Abadi;
+	src: url(fuentes/abadi-mt.ttf);
+}
+
+@font-face{
+	font-family: Bahnschrift Condensed;
+	src: url(fuentes/bahnschrift.ttf);
+}
+
+/*Square721 Cn BT*/
+@font-face{
+	font-family: Square721 Cn BT;
+	src: url(fuentes/tt0248m_.ttf);
+}

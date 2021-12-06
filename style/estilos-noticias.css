@@ -1,0 +1,383 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background: #dce0e5;
+	font-family: Tahoma;
+	font-size: 20px;
+	color: black;
+}
+h1{
+	font-family:Quantum;
+	font-size: 80px;
+	color: black;
+	
+}
+
+h2{
+	font-family: Square721 Cn BT;
+}
+
+.last{
+	width: 95%;
+    font-family: Square721 Cn BT;
+    font-size: 15px;
+    color: black;
+}
+
+.definition {
+	position: absolute;
+	background: linear-gradient(blue, #fff);
+	font-family: Arial;
+	font-size: 17px;
+	width: 580px;
+	height: 1075px;
+	display: inline-block;
+	padding: 15px 15px 15px 20px;
+	margin-left: 10px;
+	border-radius: 20px;
+} 
+
+.definition  p, h2{
+	text-align: left;
+}
+
+.definition  h2{
+	color: #fff;
+}
+
+/*hipervinculo azul "el economista"*/
+.definition em a{
+	text-decoration: none;
+	color: blue;
+}
+
+.definition em a:hover{
+	text-decoration: underline;
+}
+
+
+/*definition 2*/
+.definition1 {
+	position: absolute;
+	background: linear-gradient(#09b9b3, #0b8d92);
+	font-family: Arial;
+	font-size: 17px;
+	width: 580px;
+	height: 1500px;
+	display: inline-block;
+	padding: 15px 15px 15px 20px;
+	margin-top: 1120px;
+	margin-left: 10px;
+	border-radius: 20px;
+	color: #fff;
+} 
+
+.definition1  p, h2{
+	text-align: left;
+}
+
+.definition1  h2{
+	color: #011716;
+}
+
+.definition1  h3{
+	text-align: left;
+	color: #011716;
+}
+
+/*hipervinculo azul "el economista"*/
+.definition1 p a{
+	text-decoration: none;
+	color: #011716;
+}
+
+.definition1 p a:hover{
+	text-decoration: underline;
+}
+
+
+/*definition 3*/
+.definition2 {
+	position: absolute;
+	background: linear-gradient(#fdc937, #fff);
+	font-family: Arial;
+	font-size: 17px;
+	width: 580px;
+	height: 1000px;
+	display: inline-block;
+	padding: 15px 15px 15px 20px;
+	margin-top: 2665px;
+	margin-left: 10px;
+	border-radius: 20px;
+	color: #140802;
+} 
+
+.definition2  p, h2{
+	text-align: left;
+}
+
+.definition2  h2{
+	color: #b1460f;
+}
+
+.definition2  h3{
+	text-align: left;
+	color: #b1460f;
+}
+
+/*hipervinculo azul "el economista"*/
+.definition2 p a{
+	text-decoration: none;
+	color: #011716;
+}
+
+.definition2 p a:hover{
+	text-decoration: underline;
+}
+
+
+/*definition 4*/
+.definition3 {
+	position: absolute;
+	background: linear-gradient(#0061ff, #1fd5ff);
+	font-family: Arial;
+	font-size: 17px;
+	width: 580px;
+	height: 690px;
+	display: inline-block;
+	padding: 15px 15px 15px 20px;
+	margin-top: 3710px;
+	margin-left: 10px;
+	border-radius: 20px;
+	color: #fff;
+} 
+
+.definition3  p, h2{
+	text-align: left;
+}
+
+.definition3  h2{
+	color: #99c0ff;
+}
+
+.definition3  h3{
+	text-align: left;
+	color: #99c0ff;
+}
+
+/*hipervinculo azul "el economista"*/
+.definition3 p a{
+	text-decoration: none;
+	color: black;
+}
+
+.definition3 p a:hover{
+	text-decoration: underline;
+}
+
+
+/*zoom*/
+.imagen-zoom1 img{
+	width: 680px;
+	height: 440px;
+	position: relative;
+	display: inline-block;
+	margin: 0 0 0 640px;
+	border-radius: 20px;
+	box-shadow: 7px 13px 50px gray;
+}
+
+.imagen-zoom2 img{
+	width: 680px;
+	height: 440px;
+	position: relative;
+	display: inline-block;
+	margin: 10px 0 0 640px;
+	border-radius: 20px;
+	box-shadow: 7px 13px 50px gray;
+}
+
+/*snapdrop*/
+.imagen-snapdrop1 img{
+	width: 680px;
+	height: 440px;
+	position: relative;
+	display: inline-block;
+	margin: 230px 0 0 640px;
+	border-radius: 20px;
+	box-shadow: 7px 13px 50px gray;
+}
+
+.imagen-snapdrop2 img{
+	width: 680px;
+	height: 440px;
+	position: relative;
+	display: inline-block;
+	margin: 10px 0 0 640px;
+	border-radius: 20px;
+	box-shadow: 7px 13px 50px gray;
+}
+
+.imagen-snapdrop3 img{
+	width: 680px;
+	height: 440px;
+	position: relative;
+	display: inline-block;
+	margin: 10px 0 0 640px;
+	border-radius: 20px;
+	box-shadow: 7px 13px 50px gray;
+}
+
+
+/*amenaza*/
+.imagen-amenaza1 img{
+	width: 680px;
+	height: 440px;
+	position: relative;
+	display: inline-block;
+	margin: 205px 0 0 640px;
+	border-radius: 20px;
+	box-shadow: 7px 13px 50px gray;
+}
+
+.imagen-amenaza2 img{
+	width: 680px;
+	height: 440px;
+	position: relative;
+	display: inline-block;
+	margin: 10px 0 0 640px;
+	border-radius: 20px;
+	box-shadow: 7px 13px 50px gray;
+}
+
+/*codeacademy*/
+.imagen-code1 img{
+	width: 680px;
+	height: 440px;
+	position: relative;
+	display: inline-block;
+	margin: 155px 0 0 640px;
+	border-radius: 20px;
+	box-shadow: 7px 13px 50px gray;
+}
+
+.imagen-code2 img{
+	width: 680px;
+	height: 440px;
+	position: relative;
+	display: inline-block;
+	margin: 10px 0 0 640px;
+	border-radius: 20px;
+	box-shadow: 7px 13px 50px gray;
+}
+
+
+
+
+/*CSS Menú*/
+.navegacion ul{
+	list-style: none;
+}
+
+.menu{
+	width: 100%;
+	background: #000;
+	font-family: Okta Neue Black;
+	font-size: 25px;
+	color: orange;
+	list-style:none;
+	margin: 0;
+	padding: 0;	
+	border: solid 4px yellow;
+	margin-top: 0;
+}
+
+.menu > li {
+	display: inline-block;
+}
+.menu li a{
+	padding: 10px 20px;
+	display: inline-block;
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	background: #ccc;
+	color: yellow;
+	transition: all .5s;
+
+}
+
+/*submenu*/
+.submenu{
+	position: absolute;
+	background: grey;
+	width: 14%;
+	padding: 0 0 0 20px;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+.submenu li a {
+	font-size: 25px;
+	display: block;
+	padding: 3px;
+	color: #fff;
+	font-family: Okta Neue Black;
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+
+
+/*final2*/
+.final2{
+	position: absolute;
+	background: #050608;
+	width: 1333px;
+	color: white;
+	padding-top: 0;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 0;
+	font-family: Square721 Cn BT;
+	display: inline block;
+	margin-top: 20px;
+}
+
+.final2 p{
+	padding-bottom: 0;
+	padding-right: 0;
+	padding-left: 30px;
+	padding-top: 5px;
+	font-size: 13px;
+	display: inline block;
+}
+
+.final2 img{
+	position: static;
+	margin: -120px 20px 20px 1170px;
+	width: 100px;
+	height: 90px;
+}
+
+.final2 .marca{
+	position: absolute;
+	margin: -120px 40px 10px 910px;	
+
+}
+
+.final2 .marca p{
+	font-family: Square721 Cn BT;
+	font-size: 16px;
+	padding-top: 12px;
+}
+
+
+
